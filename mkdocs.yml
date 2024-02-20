@@ -1,0 +1,50 @@
+site_name: EyeTrading
+site_url: https://eyetrading.github.io/
+nav:
+  - Home: index.md
+  - About: about.md
+theme:
+  name: material
+  language: zh-TW
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: amber
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      primary: amber
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+  icon:
+    admonition:
+      <type>: material/alert-circle
+
+  # navigation
+  features:
+    - navigation.tabs
+    #- navigation.tabs.sticky # show always
+    #- navigation.sections
+    #- navigation.indexes
+    - toc.integrate
+
+# footer
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://eyetrading.github.io
+      name: EyeTrading on github
+
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<email-address>
+      name: squidfunk on Fosstodon
+
+copyright: Copyright &copy; 2023 - 2024 EyeTrading
+
+markdown_extensions:
+  - admonition

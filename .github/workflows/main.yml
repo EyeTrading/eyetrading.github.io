@@ -1,4 +1,4 @@
-name: ci
+name: deploy_mkdocs
 on:
   push:
     branches:
@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
         run: |
-          git config eyetrading github-actions[bot]
-          git config eyetrading77@gmail.com 41898282+github-actions[bot]@users.noreply.github.com
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x

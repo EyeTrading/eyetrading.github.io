@@ -1,9 +1,0 @@
-theme: jekyll-theme-minima
-title: EyeTrading
-description: Bookmark this to keep an eye on my project updates!
-
-
-minima:
-  social_links:
-    - { platform: github,  user_url: "https://github.com/jekyll/jekyll" }
-    - { platform: twitter, user_url: "https://twitter.com/jekyllrb" }

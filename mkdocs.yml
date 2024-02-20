@@ -11,14 +11,14 @@ theme:
       scheme: default
       primary: amber
       toggle:
-        icon: material/toggle-switch
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
 
     - media: "(prefers-color-scheme: dark)"
       primary: amber
       scheme: slate
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/toggle-switch
         name: Switch to light mode
 
   icon:
@@ -41,10 +41,9 @@ extra:
       name: EyeTrading on github
 
     - icon: fontawesome/solid/paper-plane
-      link: mailto:<email-address>
+      link: mailto:<eyetrading77@gmail.com>
       name: squidfunk on Fosstodon
 
 copyright: Copyright &copy; 2023 - 2024 EyeTrading
-
 markdown_extensions:
   - admonition

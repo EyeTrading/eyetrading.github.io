@@ -12,6 +12,7 @@ nav:
     - 下單畫面: guides/screen_flashbot.md
   - 免責聲明: disclaimer.md
   - About: about.md
+  - 連絡我們: contact.md
   
 theme:
   name: material

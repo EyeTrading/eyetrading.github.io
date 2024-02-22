@@ -16,37 +16,7 @@
 </head>
 <body>
   <div class="row">
-    <script type="text/javascript">
-      $('#submit').click( function() {
-        //e.preventDefault();
-        var user = $('#username').val();
-        var contact = $('#contact').val();
-        var message = $('#message').val();
-        console.log($('#username').val());
-        console.log(contact);
-        console.log(message);
-        if ( user != "" && contact != "" && message != "") {
-          $.ajax({
-            type: "POST",
-            url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSetHaNi_OwvEYTW7jt5YewS7su4IQcqy_WjYJxfvnO2iQcgcA/formResponse",
-            crossDomain: true,
-            data: {
-              "entry.1275659446": user,
-              "entry.1478520452":contact,
-              "entry.649104470": message
-            },
-            dataType: "json",
-            success: function () {
-              $('#username').val('');
-              $('#contact').val('');
-              $('#message').val('');
-              
-              //window.location.replace("/thank.md");
-            }
-          });
-        };
-      });
-    </script>
+    
       <form id="form" class="col s12">
         <div class="row">
           <div class="input-field col s6">
@@ -73,6 +43,32 @@
         </div>
       </form>
   </div>
+  <script type="text/javascript">
+      $('#submit').click( function() {
+        //e.preventDefault();
+        
+        if ( $('#username').val() != "" && $('#contact').val() != "" && $('#message').val() != "") {
+          $.ajax({
+            type: "POST",
+            url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSetHaNi_OwvEYTW7jt5YewS7su4IQcqy_WjYJxfvnO2iQcgcA/formResponse",
+            crossDomain: true,
+            data: {
+              "entry.1275659446": $('#username').val(),
+              "entry.1478520452":$('#contact').val(),
+              "entry.649104470": $('#message').val()
+            },
+            dataType: "JSONP",
+            success: function () {
+              $('#username').val('');
+              $('#contact').val('');
+              $('#message').val('');
+              
+              //window.location.replace("/thank.md");
+            }
+          });
+        };
+      });
+    </script>
 
   
 </body>

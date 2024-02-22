@@ -16,6 +16,37 @@
 </head>
 <body>
   <div class="row">
+    <script type="text/javascript">
+      $('#submit').click( function() {
+        //e.preventDefault();
+        var user = $('#username').val();
+        var contact = $('#contact').val();
+        var message = $('#message').val();
+        console.log($('#username').val());
+        console.log(contact);
+        console.log(message);
+        if ( user != "" && contact != "" && message != "") {
+          $.ajax({
+            type: "POST",
+            url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSetHaNi_OwvEYTW7jt5YewS7su4IQcqy_WjYJxfvnO2iQcgcA/formResponse",
+            crossDomain: true,
+            data: {
+              "entry.1275659446": user,
+              "entry.1478520452":contact,
+              "entry.649104470": message
+            },
+            dataType: "json",
+            success: function () {
+              $('#username').val('');
+              $('#contact').val('');
+              $('#message').val('');
+              
+              //window.location.replace("/thank.md");
+            }
+          });
+        };
+      });
+    </script>
       <form id="form" class="col s12">
         <div class="row">
           <div class="input-field col s6">
@@ -36,42 +67,14 @@
         </div>
 
         <div>
-          <button class="btn waves-effect waves-light" type="submit" name="action">送出
+          <button id="submit" class="btn waves-effect waves-light">送出
             <i class="material-icons right">send</i>
           </button>
         </div>
       </form>
   </div>
 
-  <script>
-    $('#form').submit(function (e) {
-      e.preventDefault();
-      var user = $('#username').val();
-      var contact = $('#contact').val();
-      var message = $('#message').val();
-
-      if ( user != "" && contact != "" && message != "") {
-        $.ajax({
-          type: "POST",
-          url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSetHaNi_OwvEYTW7jt5YewS7su4IQcqy_WjYJxfvnO2iQcgcA/formResponse",
-          crossDomain: true,
-          data: {
-            "entry.1275659446": user,
-            "entry.1478520452":contact,
-            "entry.649104470": message
-          },
-          dataType: "json",
-          success: function () {
-            $('#username').val('')
-            $('#contact').val('')
-            $('#message').val('')
-            
-            //window.location.replace("thank.md");
-          }
-        });
-      }
-    });
-  </script>
+  
 </body>
 
 </html>

@@ -11,8 +11,8 @@ nav:
     - 軟體畫面: guides/screen_eyetrading.md
     - 下單畫面: guides/screen_flashbot.md
   - 免責聲明: disclaimer.md
-  - About: about.md
   - 連絡我們: contact.md
+  - 關於: about.md
   
 theme:
   name: material
@@ -21,13 +21,13 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: amber
+      primary: custom
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
 
     - media: "(prefers-color-scheme: dark)"
-      primary: amber
+      primary: custom
       scheme: slate
       toggle:
         icon: material/toggle-switch
@@ -47,6 +47,9 @@ theme:
 
 # footer
 extra:
+  analytics:
+    provider: google
+    property: G-KPH5Y2BQ8C
   social:
     - icon: fontawesome/brands/github
       link: https://eyetrading.github.io
@@ -55,13 +58,15 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:<eyetrading77@gmail.com>
       name: squidfunk on Fosstodon
-
-  analytics:
-    provider: google
-    property: G-KPH5Y2BQ8C
+      
+extra_css:
+  - stylesheets/extra.css
 
 copyright: Copyright &copy; 2023 - 2024 EyeTrading
 markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

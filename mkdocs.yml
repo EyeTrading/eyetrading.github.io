@@ -56,6 +56,10 @@ extra:
       link: mailto:<eyetrading77@gmail.com>
       name: squidfunk on Fosstodon
 
+  analytics:
+    provider: google
+    property: G-KPH5Y2BQ8C
+
 copyright: Copyright &copy; 2023 - 2024 EyeTrading
 markdown_extensions:
   - admonition

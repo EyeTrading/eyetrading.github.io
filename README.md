@@ -1,1 +1,1 @@
-<p align=center>eyetrading</p>
+<p align=center>EyeTrading</p>

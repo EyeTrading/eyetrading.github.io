@@ -4,9 +4,17 @@
 
 ## 下載免安裝版
 
-!!! info "下載"
+!!! warning "請確定您有 <span style="color:red;font-weight:bold">永豐金證券</span> 的帳戶並且有申請 <span style="color:red;font-weight:bold">Shioaji API</span> 的使用權限。"
 
-    [EyeTrading 免安裝版](../assets/EyeTrading.zip)
+!!! warning "測試版限制"
+
+    - 使用期限: <span style="color:red;font-weight:bold"> 2024/03/31</span>
+    - 下單數量: <span style="color:red;font-weight:bold"> 1 張</span>
+    - 下單視窗: <span style="color:red;font-weight:bold"> 1 個</span>
+
+!!! info "Windows版"
+
+    [EyeTrading 免安裝版 V0.3](../assets/EyeTrading.7z)
 
 <div markdown>
 
@@ -44,23 +52,23 @@
 
     (可參考下方圖片資訊)
 
-![Image title](img/shortcut_1.png){ width="300"}
+![Step1](img/shortcut_1.png){ width="300"}
 
-![Image title](img/shortcut_2.png){ width="450"}
+![Step2](img/shortcut_2.png){ width="450"}
 
-![Image title](img/shortcut_3.png){ width="450"}
+![Step3](img/shortcut_3.png){ width="450"}
 
-![Image title](img/shortcut_4.png){ width="450"}
+![Step4](img/shortcut_4.png){ width="450"}
 
-![Image title](img/shortcut_5.png){ width="450"}
+![Step5](img/shortcut_5.png){ width="450"}
 
-![Image title](img/down.png){ width="450"}
+![Down](img/down.png){ width="450"}
 
 
 ## 執行
 
 !!! note "請先執行校時程式"
 
-    目前已設定完成，要執行程式之前，請先下載並執行 [網路校時軟體](https://www.stdtime.gov.tw/chinese/details/details.htm) 以避免登入時發生 Timeout Error，然後點擊剛剛建立的 Eyetrading 桌面捷徑.
+    目前已設定完成，要執行程式之前，請先下載並執行 <a href="https://www.stdtime.gov.tw/chinese/details/details.htm" target="_blank">網路校時軟體</a> 以避免登入時發生 Timeout Error，然後點擊剛剛建立的 Eyetrading 桌面捷徑.
 
-    ![Image title](img/nclock.png){ width="200"}
+    ![Time](img/nclock.png){ width="200"}

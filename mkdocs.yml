@@ -4,6 +4,8 @@ site_url: https://eyetrading.github.io/
 repo_name: EyeTrading/eyetrading.github.io
 repo_url: https://github.com/eyetrading/eyetrading.github.io
 
+copyright: Copyright &copy; 2023 - 2024 EyeTrading
+
 nav:
   - Home: index.md
   - 使用說明:
@@ -18,6 +20,7 @@ theme:
   name: material
   language: zh-TW
   logo: assets/logo.png
+  custom_dir: docs/overrides
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -45,7 +48,6 @@ theme:
     #- navigation.indexes
     - toc.integrate
 
-# footer
 extra:
   analytics:
     provider: google
@@ -62,7 +64,6 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
-copyright: Copyright &copy; 2023 - 2024 EyeTrading
 markdown_extensions:
   - admonition
   - attr_list

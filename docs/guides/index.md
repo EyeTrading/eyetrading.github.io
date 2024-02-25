@@ -4,7 +4,7 @@
 
 ## 下載免安裝版
 
-!!! warning "請確定您有 <span style="color:red;font-weight:bold">永豐金證券</span> 的帳戶並且有申請 <span style="color:red;font-weight:bold">Shioaji API</span> 的使用權限。"
+!!! warning "請確定您有 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/open_account/" target="_blank">永豐金證券</a></span> 的帳戶並且有申請 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/terms/" target="_blank">Shioaji API</a></span> 的使用權限。"
 
 !!! warning "測試版限制"
 

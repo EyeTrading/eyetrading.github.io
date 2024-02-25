@@ -16,13 +16,17 @@
 
     - Windows: [EyeTrading 免安裝版 V0.3](../assets/EyeTrading.7z)
 
+    Version:
+    Python: 3.10
+    Shioaji api: 1.2.1 [speed]
+
 <div markdown>
 
 ## 設定
 
 !!! note "設定檔路徑"
 
-    請至解壓縮後的資料夾(通常為 <font color="red">X:\EyeTrading\</font> )內尋找 <font color="red">config.json</font>，然後打開這個檔案，這是Shioaji api所需要的相關設定.
+    請至解壓縮後的資料夾(通常為 <font color="red">C:\EyeTrading\</font> )內尋找 <font color="red">config.json</font>，然後打開這個檔案，這是Shioaji api所需要的相關設定.
 
 ![Image title](img/setting.png){ align=left }
 

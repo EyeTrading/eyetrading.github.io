@@ -12,9 +12,9 @@
     - 下單數量: <span style="color:red;font-weight:bold"> 1 張</span>
     - 下單視窗: <span style="color:red;font-weight:bold"> 1 個</span>
 
-!!! info "Windows版"
+!!! info "下載"
 
-    [EyeTrading 免安裝版 V0.3](../assets/EyeTrading.7z)
+    - Windows: [EyeTrading 免安裝版 V0.3](../assets/EyeTrading.7z)
 
 <div markdown>
 

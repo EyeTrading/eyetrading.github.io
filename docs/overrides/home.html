@@ -23,7 +23,7 @@
 
 .et-hero h1 {
     margin-bottom: 1rem;
-    color: currentColor;
+    color: #fff;
     font-weight: 700
 }
 
@@ -32,9 +32,9 @@
     margin: 0 auto;
 }
 
-.et-hero__image{
+.et-hero__video{
     width:17rem;
-    height:17rem;
+    height:16rem;
     order:1;
     padding-right: 2.5rem;
 }
@@ -58,20 +58,19 @@
     border-color: var(--md-accent-fg-color)
 }
 
-.feature-item h2 svg {
+/*.feature-item h2 svg {
     height: 30px;
     float: left;
     margin-right: 10px;
     transform: translateY(10%);
-}
+}*/
 
 .top-hr {
     margin-top: 42px;
 }
 
 .feature-item {
-    /*font-family: 'Lato', sans-serif;*/
-    font-weight: 300;
+    font-weight: 400;
     box-sizing: border-box;
     padding: 0 15px;
     word-break: break-word
@@ -132,7 +131,7 @@
 
     .et-hero__content {
         max-width: 22rem;
-        margin-top: 3.5rem;
+        margin-top: 4rem;
         margin-bottom: 3.5rem;
         margin-left: 1.0rem;
         margin-right: 4.0rem;
@@ -180,13 +179,14 @@
 <div class="et-container">
     <div class="md-grid md-typeset">
       <div class="et-hero">
-        <div class="et-hero__image">
-            <iframe width="480" height="320" src="https://youtube.com/embed/w7ox23rM9Y8?si=JmDGFvsCkNE-wJ3m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        </div>
+        <div class="et-hero__video">
+            <iframe width="320" height="320" src="https://youtube.com/embed/w7ox23rM9Y8?si=JmDGFvsCkNE-wJ3m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         <div class="et-hero__content">
           <h1> EyeTrading </h1>
           <p>台灣第一個閃電下電介面內建策略的軟體，您可以隨時啟用或停用自動下單功能，
             機器人會根據策略的訊號及設定的方向執行買進或賣出的動作。</p>
-          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
+          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary et-button">
             Get started
           </a>
           

@@ -8,6 +8,9 @@
 !!! info
     目前下單功能只支援個股。
 
+!!! warning "零股下單暫不支援"
+    <span style="font-weight:bold;color:red;">目前下單不支援零股</span>
+
 !!! success ""
 
     1. 帳號資訊: 登入後由Shioaji api回傳資料.

@@ -8,8 +8,8 @@
 !!! info
     目前下單功能只支援個股。
 
-!!! warning "零股下單暫不支援"
-    <span style="font-weight:bold;color:red;">目前下單不支援零股</span>
+!!! warning "零股"
+    <span style="font-weight:bold;color:red;"> 報價目前以整股為主，非零股報價，僅供參考</span>
 
 !!! success ""
 

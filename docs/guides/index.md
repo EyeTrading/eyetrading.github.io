@@ -18,8 +18,8 @@
     - Windows: [EyeTrading 免安裝版 V0.3](../assets/EyeTrading.7z)
 
     Version:
-    Python: 3.10
-    Shioaji api: 1.2.1 [speed]
+    - Python: 3.10
+    - Shioaji api: 1.2.1 [speed]
 
 <div markdown>
 

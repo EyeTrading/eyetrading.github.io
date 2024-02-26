@@ -11,6 +11,7 @@
     - 使用期限: <span style="color:red;font-weight:bold"> 2024/03/31</span>
     - 下單數量: <span style="color:red;font-weight:bold"> 1 張</span>
     - 下單視窗: <span style="color:red;font-weight:bold"> 1 個</span>
+    - 零股: <span style="color:red;font-weight:bold"> 目前下單不支援零股</span>
 
 !!! info "下載"
 

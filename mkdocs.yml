@@ -57,6 +57,9 @@ extra:
       link: https://eyetrading.github.io
       name: EyeTrading on github
 
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/eyetrading77
+
     - icon: fontawesome/solid/paper-plane
       link: mailto:<eyetrading77@gmail.com>
       name: squidfunk on Fosstodon

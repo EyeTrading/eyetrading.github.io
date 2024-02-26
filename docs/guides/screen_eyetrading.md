@@ -52,6 +52,7 @@
 ## 監控訊號選單
 
 !!! success ""
+
     * 儲存監控訊號: 將個股訊號記錄表匯出至csv檔。
 
 </div>
@@ -62,6 +63,7 @@
 ## 委託單記錄表:取消委託單
 
 !!! success ""
+
     * 狀態: 當委託狀態為 <span style="color:red;font-weight:bold;">委託成功</span> 時，點選委託成功可以取消這筆委託單。
 
 </div>

@@ -16,8 +16,16 @@
 
         ---
         <p align=center style="background:#BEBEBE">
-        ![Telegram](img/ig_qrcode.jpg){ width="150"}
+        ![IG](img/ig_qrcode.jpg){ width="150"}
         </p>
+
+    -   :fontawesome-brands-line:{ .lg .middle } __Line__
+
+        ---
+        <p align=center style="background:#BEBEBE">
+        ![Line](img/line_qrcode.jpg){ width="150"}
+        </p>
+
 
     -   :material-gmail:{ .lg .middle } __E-MAIL__ 
 

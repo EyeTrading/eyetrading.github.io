@@ -44,6 +44,7 @@ theme:
   # navigation
   features:
     - navigation.tabs
+    - navigation.footer
     #- navigation.tabs.sticky # show always
     #- navigation.sections
     #- navigation.indexes

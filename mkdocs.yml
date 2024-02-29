@@ -8,6 +8,7 @@ copyright: Copyright &copy; 2023 - 2024 EyeTrading
 
 nav:
   - Home: index.md
+  - 特色: feature.md
   - 使用說明:
     - 安裝與設定: guides/index.md
     - 軟體畫面: guides/screen_eyetrading.md

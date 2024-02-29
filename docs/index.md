@@ -1,4 +1,6 @@
 ---
+hide:
+  - footer
 template: home.html
 title: EyeTrading
 ---

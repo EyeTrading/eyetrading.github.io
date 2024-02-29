@@ -23,7 +23,7 @@
 
         ---
         <p align=center style="background:#BEBEBE">
-        ![Line](https://qr-official.line.me/gs/M_328mcsli_GW.png?oat_content=qr){ width="150"}
+        ![Line](img/line_qrcode.png){ width="150"}
         </p>
 
 
@@ -31,7 +31,7 @@
 
         ---
         <p align=center style="background:#BEBEBE">
-        ![E-Mail](img/email.png){ width="200"}
+        ![E-Mail](img/email.png){ width="150"}
         </p>
         
 

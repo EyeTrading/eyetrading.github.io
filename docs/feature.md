@@ -5,7 +5,7 @@
 !!! example "閃電下電機器人"
 
     1. <span style="color:red;font-weight:bold;">報價欄位可調</span>: 報價欄寬度可自行調整，視窗大小也可縮放，不佔用畫面太多空間。
-    2. <span style="color:red;font-weight:bold;">力道指標</span>: 內建力道指標提供參考(<span style="color:red;font-weight:900;">指標僅提供參考並非投資建議，並不保證獲利，投資相關決策需自負盈虧</span>)
+    2. <span style="color:red;font-weight:bold;">力道指標</span>: 內建力道指標提供參考(<span style="color:red;font-weight:900;">指標僅提供參考並非投資建議，並不保證獲利且可能有虧損，投資相關決策需自負盈虧</span>)
 
         - 當<span style="color:red;">買方</span>力道加強時會在 % 欄位顯示 <span style="background-color:black;color:orange;font-weight:bold">橘色</span>；反向來說，當指標消失時即代表買方力竭。
         - 當<span style="color:green;">賣方</span>力道加強時會在 % 欄位顯示 <span style="background-color:black;color:lime;font-weight:bold">綠色</span>；反向來說，當指標消失時即代表賣方力竭。

@@ -23,7 +23,7 @@
 
         ---
         <p align=center style="background:#BEBEBE">
-        ![Line]("https://qr-official.line.me/gs/M_328mcsli_GW.png?oat_content=qr">){ width="150"}
+        ![Line](https://qr-official.line.me/gs/M_328mcsli_GW.png?oat_content=qr){ width="150"}
         </p>
 
 

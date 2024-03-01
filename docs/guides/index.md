@@ -6,6 +6,8 @@
 
 !!! warning "請確定您有 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/open_account/" target="_blank">永豐金證券</a></span> 的帳戶並且有申請 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/terms/" target="_blank">Shioaji API</a></span> 的使用權限。"
 
+!!! warning "程式處於開發、測試階段，可能有非預期之異常發生，舊版本的自動交易功能僅提供測試使用。欲測試實單功能請確保有 <span style="color:red;font-weight:bold">備援系統</span> 可使用。
+
 !!! warning "測試版限制"
 
     - 使用期限: <span style="color:red;font-weight:bold"> 2024/03/31</span>
@@ -15,7 +17,7 @@
 
 !!! info "下載"
 
-    - Windows: [EyeTrading 免安裝版 V0.3](../assets/EyeTrading.7z)
+    - Windows10/11: [EyeTrading 免安裝版 V0.4.0](../assets/EyeTrading.7z)
 
     Version:
     

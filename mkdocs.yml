@@ -4,7 +4,7 @@ site_url: https://eyetrading.github.io/
 repo_name: EyeTrading/eyetrading.github.io
 repo_url: https://github.com/eyetrading/eyetrading.github.io
 
-copyright: Copyright &copy; 2023 - 2024 EyeTrading
+copyright: Copyright &copy; 2024 EyeTrading
 
 nav:
   - Home: index.md

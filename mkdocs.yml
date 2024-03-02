@@ -13,6 +13,8 @@ nav:
     - 安裝與設定: guides/index.md
     - 軟體畫面: guides/screen_eyetrading.md
     - 下單畫面: guides/screen_flashbot.md
+  - Shioaji:
+    - API測試報告: tutor/index.md
   - 免責聲明: disclaimer.md
   - 連絡我們: contact.md
   - 關於: about.md

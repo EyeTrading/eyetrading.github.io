@@ -12,12 +12,15 @@ nav:
   - 使用說明:
     - 安裝與設定: guides/index.md
     - 軟體畫面: guides/screen_eyetrading.md
-    - 下單畫面: guides/screen_flashbot.md
-  - Shioaji:
-    - API測試報告: tutor/index.md
+    - Shioaji Api設定: guides/screen_settings.md
+    - 盤中選股: guides/screen_pick.md
+    - 力竭監控: guides/screen_exhaust.md
+    - 閃電下單: guides/screen_flashbot.md
   - 免責聲明: disclaimer.md
   - 連絡我們: contact.md
   - 關於: about.md
+  - 其它:
+    - Shioaji api測試報告: tutor/index.md
   
 theme:
   name: material

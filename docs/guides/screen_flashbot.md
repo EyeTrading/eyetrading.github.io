@@ -1,9 +1,9 @@
 # <font color="silver">EyeTrading 功能說明</font>
 
+## 閃電下單
+
 <div markdown>
 ![Image title](img/order_screen.png){ width="250" align=left }
-
-## 下單畫面
 
 !!! info
     目前下單功能只支援個股。

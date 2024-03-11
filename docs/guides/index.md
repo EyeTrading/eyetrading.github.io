@@ -1,12 +1,8 @@
 # 安裝與設定 EyeTrading
 
-
-
 ## 下載免安裝版
 
-!!! warning "請確定您有 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/open_account/" target="_blank">永豐金證券</a></span> 的帳戶並且有申請 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/terms/" target="_blank">Shioaji API</a></span> 的使用權限。"
-
-!!! warning "程式處於開發、測試階段，可能有非預期之異常發生，舊版本的自動交易功能僅提供測試使用。欲測試實單功能請確保有 <span style="color:red;font-weight:bold">備援系統</span> 可使用。"
+!!! warning "請確定您有 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/open_account/" target="_blank">永豐金證券</a></span> 的帳戶並且有申請 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/terms/" target="_blank">Shioaji API</a></span> 的使用權限。請確保有 <span style="color:red;font-weight:bold">備援系統</span> 可使用。"
 
 !!! warning "測試版限制"
 
@@ -19,35 +15,19 @@
 
     請先閱讀 [免責聲明](../disclaimer.md/)，下載即視為您已閱讀其內容並同意相關事項。
     
-    - Windows10/11: [EyeTrading 免安裝版 V0.4.0](../assets/EyeTrading.7z)
+    - Windows10/11: [EyeTrading Windows免安裝版 V0.5.1](https://github.com/EyeTrading/EyeTrading_win/archive/refs/heads/main.zip)
+    - {++MacOS++}: [EyeTrading Mac免安裝版 V0.5.1](https://github.com/EyeTrading/EyeTrading_mac/archive/refs/heads/main.zip)
 
     Version:
     
         - Python: 3.10
         - Shioaji api: 1.2.1 [speed]
 
-<div markdown>
+    !!! tips "Mac執行時遇到檔案已損毀問題"
 
-## 設定
+        請參考<a href="https://epe.idv.tw/fix-app-damaged-cant-be-opened-trash-error-mac/" target="_blank"> 如何解決 MACOS 碰到 「XXX」應用程式已損毀，無法打開．你應該將其丟到「垃圾桶」的問題</a>
 
-!!! note "設定檔路徑"
-
-    請至解壓縮後的資料夾(通常為 <font color="red">C:\EyeTrading\</font> )內尋找 <font color="red">config.json</font>，然後打開這個檔案，這是Shioaji api所需要的相關設定.
-
-![Image title](img/setting.png){ align=left }
-
-!!! success ""
-
-    * shioaji_key_name: 輸入設定的key name.(可填可不填)
-    * shioaji_key_expire_date: key的過期時間，小於30天時會提醒.(格式: yyyy-mm-dd)
-    * shioaji_api_key: 輸入api_key.
-    * shioaji_screate_key: 輸入screate_key.
-    * ca_path: 輸入憑證的路徑.
-    * ca_pid: 輸入個人的ID.
-    * ca_passwd: 輸入憑證的密碼.
-
-</div>
-<hr>
+    
 <div markdown>
     
 ## 建立桌面捷徑

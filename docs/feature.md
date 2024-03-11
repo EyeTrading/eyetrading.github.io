@@ -1,6 +1,28 @@
-# <font color="silver">EyeTrading 閃電下單</font>
+# <font color="silver">EyeTrading 特色</font>
 
-## 閃電下電機器人特色
+
+## 盤中選股
+
+!!! example "盤中選股功能"
+
+    ![sell_sign](img/fea_4.png){ width="500"}
+
+    根據前一交易日的個股中，設定當日相關絛件設定，於盤中即時更新選股狀態，然後將選出之個股列出，其中排序方式可根據成交量、漲跌以及獨家開發的<span style="color:red;font-weight:bold;">K量</span>排序，{==K量排序可快速找出當下成交量放大的個股==}。
+
+
+## 買賣力竭
+
+!!! example "買賣力竭"
+
+    ![sell_sign](img/fea_3.png){ width="300" align=left}
+
+    1. <span style="color:red;font-weight:bold;">自選個股</span>: 可自行增加或減少欲監控的個股。
+    2. <span style="color:red;font-weight:bold;">Hit</span>: 連續攻擊.
+    3. <span style="color:red;font-weight:bold;">DMG</span>: 總傷害量.
+    4. <span style="color:red;font-weight:bold;">Combo</span>: 綜合 Hit and DMG的燈號.
+
+
+## 閃電下電機器人
 
 !!! example "閃電下電機器人"
 
@@ -15,12 +37,8 @@
         - {--勾選 <span style="color:red;">力竭-空</span>: 則指標買方訊號出現時進入監控狀態，訊號消失時即自動下賣單.--}
     
     4. 買賣盤差: 直接顯示當日買賣盤差數據.
-    
 
-<div markdown>
+    ![sell_sign](img/fea_1.png){ width="300" align=left}
 
-![sell_sign](img/fea_1.png){ width="300" align=left}
+    ![buy_sign](img/fea_2.png){ width="300" align=right}
 
-![buy_sign](img/fea_2.png){ width="300" align=right}
-
-</div>

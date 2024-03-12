@@ -16,12 +16,18 @@
     請先閱讀 [免責聲明](../disclaimer.md/)，下載即視為您已閱讀其內容並同意相關事項。
     
     - Windows10/11: [EyeTrading Windows免安裝版 V0.5.1](https://github.com/EyeTrading/EyeTrading_win/archive/refs/heads/main.zip)
-    - {++MacOS++}: [EyeTrading Mac版 V0.5.1](https://github.com/EyeTrading/EyeTrading_mac/archive/refs/heads/main.zip)
+    - {++MacOS++}: [EyeTrading Mac免安裝版 V0.5.2](https://github.com/EyeTrading/EyeTrading_mac/archive/refs/heads/main.zip)
 
     Version:
     
         - Python: 3.10
         - Shioaji api: 1.2.1 [speed]
+
+    !!! tips "Windows執行程式遇到保護問題"
+
+        ![win_warn_1](img/win_warn_1.png){ width="300" align=left}
+
+        ![win_warn_1](img/win_warn_2.png){ width="300" align=right}
 
     !!! tips "Mac執行時遇到檔案已損毀問題"
 
@@ -42,17 +48,17 @@
 
     (可參考下方圖片資訊)
 
-![Step1](img/shortcut_1.png){ width="300"}
+    ![Step1](img/shortcut_1.png){ width="250"}
 
-![Step2](img/shortcut_2.png){ width="450"}
+    ![Step2](img/shortcut_2.png){ width="400"}
 
-![Step3](img/shortcut_3.png){ width="450"}
+    ![Step3](img/shortcut_3.png){ width="400"}
 
-![Step4](img/shortcut_4.png){ width="450"}
+    ![Step4](img/shortcut_4.png){ width="400"}
 
-![Step5](img/shortcut_5.png){ width="450"}
+    ![Step5](img/shortcut_5.png){ width="400"}
 
-![Down](img/down.png){ width="450"}
+    ![Down](img/down.png){ width="250"}
 
 
 ## 執行
@@ -62,3 +68,4 @@
     目前已設定完成，要執行程式之前，請先下載並執行 <a href="https://www.stdtime.gov.tw/chinese/details/details.htm" target="_blank">網路校時軟體</a> 以避免登入時發生 Timeout Error，然後點擊剛剛建立的 Eyetrading 桌面捷徑.
 
     ![Time](img/nclock.png){ width="200"}
+

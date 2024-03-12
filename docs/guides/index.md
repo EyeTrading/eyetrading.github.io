@@ -15,13 +15,13 @@
 
     請先閱讀 [免責聲明](../disclaimer.md/)，下載即視為您已閱讀其內容並同意相關事項。
     
-    - Windows10/11: [EyeTrading Windows免安裝版 V0.5.1](https://github.com/EyeTrading/EyeTrading_win/archive/refs/heads/main.zip)
+    - Windows10/11: [EyeTrading Windows免安裝版 V0.5.2](https://github.com/EyeTrading/EyeTrading_win/archive/refs/heads/main.zip)
     - {++MacOS++}: [EyeTrading Mac免安裝版 V0.5.2](https://github.com/EyeTrading/EyeTrading_mac/archive/refs/heads/main.zip)
 
-    Version:
+    V0.5.2 Release:
     
-        - Python: 3.10
-        - Shioaji api: 1.2.1 [speed]
+        - fixed: 無法設定排序問題.
+        - added: 優化選股速度.
 
     !!! tips "Windows執行程式遇到保護問題"
 

@@ -20,7 +20,11 @@ nav:
   - 連絡我們: contact.md
   - 關於: about.md
   - 其它:
-    - Shioaji api測試報告: tutor/index.md
+    - Shioaji api操作記錄--測試報告: tutor/index.md
+    - Shioaji api操作記錄--安裝、登入、登出: tutor/sj_api_login.md
+    - Shioaji api操作記錄--取得行情: tutor/sj_api_data.md
+    - Python 操作記錄--list、dict、set: tutor/python_collection.md
+    - Python 操作記錄--for-loop: tutor/python_loop.md
   
 theme:
   name: material

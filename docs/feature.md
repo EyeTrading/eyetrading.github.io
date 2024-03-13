@@ -5,7 +5,7 @@
 
 !!! example "盤中選股功能"
 
-    ![sell_sign](img/fea_4.png){ width="500"}
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DsrV-12hjKU?si=_SF0mCHjKmHKUqgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     根據前一交易日的個股中，設定當日相關絛件設定，於盤中即時更新選股狀態，然後將選出之個股列出，其中排序方式可根據成交量、漲跌以及獨家開發的<span style="color:red;font-weight:bold;">K量</span>排序，{==K量排序可快速找出當下成交量放大的個股==}。
 

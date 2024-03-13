@@ -20,8 +20,9 @@
 
     V0.5.2 Release:
     
-        - fixed: 無法設定排序問題.
-        - added: 優化選股速度.
+        - fixed: 設定排序問題.
+        - fixed: 預估量修正.
+        - feat: 優化選股速度.
 
     !!! tips "Windows執行程式遇到保護問題"
 

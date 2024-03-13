@@ -51,7 +51,7 @@
 
         - 漲跌幅: 依漲跌幅大小排序
         - 成交量: 依成交量大小排序
-        - <span style="color:red;ont-weight:bold">K量</span>: 依K量大小排序
+        - {++K量++}: {==依K量大小排序==}
 
 
 !!! info "Step 3:啟動盤中選股"

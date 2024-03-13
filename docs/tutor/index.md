@@ -1,4 +1,4 @@
-# 永豐金Shioaji api 測試報告教學
+# 永豐Shioaji api 操作記錄--測試報告
 
 
 

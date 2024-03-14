@@ -18,11 +18,11 @@
     - Windows10/11: [EyeTrading Windows免安裝版 V0.5.2](https://github.com/EyeTrading/EyeTrading_win/archive/refs/heads/main.zip)
     - {++MacOS++}: [EyeTrading Mac免安裝版 V0.5.3](https://github.com/EyeTrading/EyeTrading_mac/archive/refs/heads/main.zip)
 
-    V0.5.2 Release:
+    V0.5.3 Release:
     
-        - fixed: 設定排序問題.
-        - fixed: 預估量修正.
-        - feat: 優化選股速度.
+        - fixed: 量比修正.
+        - feat: 調整排序為選股Table header.
+        - feat: 調整啟動選股至視窗內.
 
     !!! tips "Windows執行程式遇到保護問題"
 

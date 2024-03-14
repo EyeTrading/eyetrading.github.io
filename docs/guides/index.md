@@ -15,7 +15,7 @@
 
     請先閱讀 [免責聲明](../disclaimer.md/)，下載即視為您已閱讀其內容並同意相關事項。
     
-    - Windows10/11: [EyeTrading Windows免安裝版 V0.5.2](https://github.com/EyeTrading/EyeTrading_win/archive/refs/heads/main.zip)
+    - Windows10/11: [EyeTrading Windows免安裝版 V0.5.3](https://github.com/EyeTrading/EyeTrading_win/archive/refs/heads/main.zip)
     - {++MacOS++}: [EyeTrading Mac免安裝版 V0.5.3](https://github.com/EyeTrading/EyeTrading_mac/archive/refs/heads/main.zip)
 
     V0.5.3 Release:

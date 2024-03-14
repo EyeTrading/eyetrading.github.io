@@ -16,7 +16,7 @@
     請先閱讀 [免責聲明](../disclaimer.md/)，下載即視為您已閱讀其內容並同意相關事項。
     
     - Windows10/11: [EyeTrading Windows免安裝版 V0.5.2](https://github.com/EyeTrading/EyeTrading_win/archive/refs/heads/main.zip)
-    - {++MacOS++}: [EyeTrading Mac免安裝版 V0.5.2](https://github.com/EyeTrading/EyeTrading_mac/archive/refs/heads/main.zip)
+    - {++MacOS++}: [EyeTrading Mac免安裝版 V0.5.3](https://github.com/EyeTrading/EyeTrading_mac/archive/refs/heads/main.zip)
 
     V0.5.2 Release:
     
@@ -33,6 +33,12 @@
     !!! tips "Mac執行時遇到檔案已損毀問題"
 
         請參考<a href="https://epe.idv.tw/fix-app-damaged-cant-be-opened-trash-error-mac/" target="_blank"> 如何解決 MACOS 碰到 「XXX」應用程式已損毀，無法打開．你應該將其丟到「垃圾桶」的問題</a>
+
+        步驟如下：
+
+        1. 打開 {==終端機==}
+        2. 於終端機內輸入指令```{++xattr -cr /路徑/EyeTrading.app++}```，可於輸入完 {==xattr -cr ==}後將 app拖入終端機內就會直接帶出路徑，然後Enter即可
+        3. 再次執行 EyeTrading應用程式即可.
 
     
 <div markdown>

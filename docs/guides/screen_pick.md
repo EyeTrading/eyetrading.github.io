@@ -47,19 +47,27 @@
 
     設定完條件之後，點選 <span style="color:red;font-weight:bold;"> 設定條件 </span>後即可生效，下次會使用相同設定。<br>
     <br>
-    排序方式為下拉式選單，直接選用即可，目前有三種排序:
+    {~~排序方式為下拉式選單，直接選用即可，目前有三種排序~> 調整為點選欄位標題即切換排序~~}
+
+    ![啟動選股](img/pick_stock_sort.png){ width="400" align=left }
 
         - 漲跌幅: 依漲跌幅大小排序
         - 成交量: 依成交量大小排序
-        - {++K量++}: {==依K量大小排序==}
+        - {++分量++}: {==依K量大小排序==}
+        - 成交價: 依成交價大小排序
+        - 量比: 依量比大小排序
+        - 估量: 依預估量比大小排序
 
 
 !!! info "Step 3:啟動盤中選股"
 
-    ![啟動選股](img/menu_picks.png){ width="130" align=left }
+    ![啟動選股](img/pick_stock_2.png)
 
-    點選 選單-選股中的 <span style="color:red;font-weight:bold"> 啟動盤中選股</span> 後，於交易時間 09:00~13:25 將會依條件選出個股.<br>
-    可以隨時{==停止/再啟動==}此功能以節省 api流量.
+    - 顯示為<span style="color:red;font-weight:bold"> 停止選股</span>: {==表示目前是停止狀態==}
+    - 顯示為<span style="color:green;font-weight:bold"> 選股中</span>: {==表示目前是啟動選股狀態==}
+
+    啟動後，於交易時間 09:00~13:30 將會依條件選出個股.<br>
+    點選 <span style="color:red;font-weight:bold"> 停止選股</span>/ <span style="color:green;font-weight:bold">選股中</span>可以隨時{==啟動/停止==}此功能.
     <br>
 
 

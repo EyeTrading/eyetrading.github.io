@@ -8,7 +8,7 @@
 
 !!! info "盤後選股"
 
-    ![類股](img/afterpicks.png)
+    ![afterpicks](img/afterpicks_ok.png)
 
     此功能為開發階段，畫面說如下：
 
@@ -22,10 +22,9 @@
     - 日期: 此為取得個股的最新一筆的資料.
     - 代號與名稱: 點選此欄位後，K線圖會更新為此個股的<span style="color:red;"> 日</span> 線圖
 
-    K線圖(Dev):
+    K線圖(Dev):(<span style="color:red;">目前只有Mac版有 Chart</span>)
 
     - 設定: 可以設定 均線.
 
-
-
+    ![mac chart](img/afterpicks.png)
 

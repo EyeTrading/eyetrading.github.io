@@ -48,7 +48,7 @@
 </div>
 <hr>
 <div markdown>
-![Image title](img/menu_picks_mac.png){ width="250" align=left }
+![Image title](img/menu_picks.png){ width="250" align=left }
 
 ## 選股選單
 
@@ -58,6 +58,7 @@
     * {++開啟力竭監控: 開啟自選個股力竭監控視窗。++}
     * {++開啟盤中選股: 開啟盤中選股功能視窗。++}
     * {~~啟動/停止盤中選股: 啟動/停止 盤中選股功能。~> 啟動功能移至選股視窗~~}
+    * {++開啟盤後選股: 開啟盤後選股功能視窗。++}
 
 </div>
 <hr>

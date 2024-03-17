@@ -16,6 +16,7 @@ nav:
     - 盤中選股: guides/screen_pick.md
     - 力竭監控: guides/screen_exhaust.md
     - 閃電下單: guides/screen_flashbot.md
+    - 盤後選股(Dev): guides/screen_afterpicks.md
   - 免責聲明: disclaimer.md
   - 連絡我們: contact.md
   - 關於: about.md

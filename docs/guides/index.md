@@ -18,6 +18,11 @@
     - Windows10/11: [EyeTrading Windows免安裝版 V0.5.6](https://github.com/EyeTrading/EyeTrading_win/archive/refs/heads/main.zip)
     - {++MacOS++}: [EyeTrading Mac免安裝版 V0.5.6](https://github.com/EyeTrading/EyeTrading_mac/archive/refs/heads/main.zip)
 
+    V0.5.6 Release:
+
+        - feat: 新增盤後選股(目前只一個策略)
+        - feat: K線圖(Mac版)
+    
     V0.5.3 Release:
     
         - fixed: 量比修正.

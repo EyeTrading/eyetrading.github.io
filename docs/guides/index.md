@@ -2,7 +2,7 @@
 
 ## 下載免安裝版
 
-!!! warning "請確定您有 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/open_account/" target="_blank">永豐金證券</a></span> 的帳戶並且有申請 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/terms/" target="_blank">Shioaji API</a></span> 的使用權限。請確保有 <span style="color:red;font-weight:bold">備援系統</span> 可使用。"
+!!! warning "請確定您有 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/open_account/" target="_blank">永豐金證券</a></span> 的帳戶並且有申請 <span style="color:red;font-weight:bold"><a href="https://sinotrade.github.io/tutor/prepare/terms/" target="_blank">Shioaji API</a></span> 的使用權限。請確保有 <span style="color:red;font-weight:bold">備援系統</span> 可使用。{==盤後選股不需要登入永豐帳號==}"
 
 !!! warning "測試版限制"
 

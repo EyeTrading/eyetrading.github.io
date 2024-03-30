@@ -2,8 +2,6 @@
 
 ## 閃電下單
 
-<div markdown>
-![Image title](img/order_screen.png){ width="250" align=left }
 
 !!! info
     目前下單功能只支援個股。
@@ -11,7 +9,9 @@
 !!! warning "零股"
     <span style="font-weight:bold;color:red;"> 報價目前以整股為主，非零股報價，僅供參考</span>
 
-!!! success ""
+!!! success "閃電下單畫面"
+
+    ![Image title](img/order_screen.png){ width="250"}
 
     1. 帳號資訊: 登入後由Shioaji api回傳資料.
     2. 禁止下單: 防止貓咪誤擊滑鼠，啟用時無法下單，下單時會提醒解除功能後才可下單.
@@ -25,18 +25,17 @@
     10. 價格置中/右鍵選單: 滑鼠左鍵點選 %、成交價、量 任一位置，五檔成交顯示至畫面中間；右鍵則顯額外功能.
     11. 單擊下單: 點擊即下單，不需點擊兩下.
     12. 觸、買(賣)、五/刪: 觸:設觸價單、買(賣):送出委託單、五/刪:取消此欄位的觸價或買(賣)委託單.
-</div>
 
-<div markdown>
-![Image title](img/order_menu.png){ width="250" align=left }
+
+
 
 ## 右鍵快捷選單
 
-!!! success ""
+!!! success "閃電下單右鍵選單"
+
+    ![Image title](img/order_menu.png){ width="250" }
 
     * 無觸價: 勾選後，取消觸價功能.
     * 觸價-停損: 勾選後，觸價價格為範圍避免穿價(目前設定10檔價位).
     * 觸價-進場: 勾選後，成交價等於觸價觸格時送出委託單.
     * 1: 下單量快速設定。
-</div>
-

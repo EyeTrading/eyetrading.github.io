@@ -19,7 +19,7 @@
 
 !!! info "Step 1:取得個股清單"
 
-    ![個股清單](img/pick_stock_1.png){ width="250" align=left }
+    ![個股清單](img/pick_stock_1.png){ width="250"}
 
     * 個股日期: 請設定為<span style="color:red;font-weight:bold"> 前一交易日 </span> 的日期。
     * 成交量限制(單位:張): 預設為 1000，表示前一交易日個股成交量 > 1000張的個股。(Minimun:800)
@@ -49,7 +49,7 @@
     <br>
     {~~排序方式為下拉式選單，直接選用即可，目前有三種排序~> 調整為點選欄位標題即切換排序~~}
 
-    ![啟動選股](img/pick_stock_sort.png){ width="400" align=left }
+    ![啟動選股](img/pick_stock_sort.png){ width="400"}
 
         - 漲跌幅: 依漲跌幅大小排序
         - 成交量: 依成交量大小排序

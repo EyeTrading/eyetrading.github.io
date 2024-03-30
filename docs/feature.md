@@ -14,7 +14,7 @@
 
 !!! example "買賣力竭"
 
-    ![sell_sign](img/fea_3.png){ width="300" align=left}
+    ![sell_sign](img/fea_3.png)
 
     1. <span style="color:red;font-weight:bold;">自選個股</span>: 可自行增加或減少欲監控的個股。
     2. <span style="color:red;font-weight:bold;">Hit</span>: 連續攻擊.

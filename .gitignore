@@ -1,1 +1,9 @@
 README.md
+
+/Include/
+/Lib/
+/Scripts/
+/update/
+
+.gitignore
+pyvenv.cfg

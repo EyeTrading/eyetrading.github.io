@@ -26,6 +26,12 @@ nav:
     - Shioaji api操作記錄--取得行情: tutor/sj_api_data.md
     - Python 操作記錄--list、dict、set: tutor/python_collection.md
     - Python 操作記錄--for-loop: tutor/python_loop.md
+  - 富邦新API:
+    - 富邦新API 操作記錄--安裝、登入、登出: tutor/fb_api_login.md
+    - 富邦新API 操作記錄--即時行情: tutor/fb_api_websocket.md
+    - 富邦新API 操作記錄--日內資料: tutor/fb_api_intraday.md
+    - 富邦新API 操作記錄--行情快照: tutor/fb_api_snapshot.md
+    - 富邦新API 操作記錄--歷史資料: tutor/fb_api_historical.md
   
 theme:
   name: material

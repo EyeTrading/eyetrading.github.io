@@ -1,6 +1,15 @@
 # <font color="silver">EyeTrading 特色</font>
 
 
+## Candlestick chart
+
+!!! example "K線圖"
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jNrxLbbnkHE?si=Cedm5UKyEHRxYDpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    日K、五分K、一分K 串API即時行情。
+
+
 ## 盤中選股
 
 !!! example "盤中選股功能"

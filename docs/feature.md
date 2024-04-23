@@ -1,6 +1,14 @@
 # <font color="silver">EyeTrading 特色</font>
 
 
+## K線圖整合閃電下單
+
+!!! example "K線圖整合閃電下單"
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0T25R1PQb5g?si=7uEwrVbjSOqa5EXP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    一分K、閃電下單、簡易成交明細資料串API即時行情。
+
 ## Candlestick chart
 
 !!! example "K線圖"

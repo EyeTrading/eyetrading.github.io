@@ -18,7 +18,7 @@ nav:
     - 閃電下單: guides/screen_flashbot.md
     - 盤後選股(Dev): guides/screen_afterpicks.md
   - 免責聲明: disclaimer.md
-  - 連絡我們: contact.md
+  - 連絡: contact.md
   - 關於: about.md
   - 其它:
     - Shioaji api操作記錄--測試報告: tutor/index.md

@@ -1,5 +1,12 @@
 # <font color="silver">EyeTrading 特色</font>
 
+## 閃電K線
+
+!!! example "閃電K線"
+
+    ![flashorderKChart](img/fea_5.jpg)
+
+    閃電下單、k線及成交明細多畫面使用
 
 ## K線圖整合閃電下單
 

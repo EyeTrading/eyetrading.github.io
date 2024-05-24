@@ -1,17 +1,5 @@
 # <font color="silver">EyeTrading 特色</font>
 
-## Tick Tracker
-
-!!! example "Tick Tracker"
-
-    ![tick tracker1](img/fea_tt1.png)
-
-    ![tick tracker2](img/fea_tt2.png)
-
-    <span style='color:red;'>個股盤後分析功能</span>
-    
-    {==將成交明細資料圖形化並追蹤大單的動向同時撘配當日的一分K線圖觀察尋找可能的交易機會。==}
-
 ## 閃電K線
 
 !!! example "閃電K線"

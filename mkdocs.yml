@@ -20,7 +20,7 @@ nav:
   - 免責聲明: disclaimer.md
   - 連絡: contact.md
   - 關於: about.md
-  - 其它:
+  - 永豐API:
     - Shioaji api操作記錄--測試報告: tutor/index.md
     - Shioaji api操作記錄--安裝、登入、登出: tutor/sj_api_login.md
     - Shioaji api操作記錄--取得行情: tutor/sj_api_data.md
@@ -32,6 +32,10 @@ nav:
     - 富邦新API 操作記錄--日內資料: tutor/fb_api_intraday.md
     - 富邦新API 操作記錄--行情快照: tutor/fb_api_snapshot.md
     - 富邦新API 操作記錄--歷史資料: tutor/fb_api_historical.md
+  - 凱基API:
+    - 凱基API 下單串接: tutor/kgi_api_demo.md
+    - 凱基API 操作記錄--下載與安裝: tutor/kgi_api_install.md
+    - 凱基API 操作記錄--登入、登出: tutor/kgi_api_login.md
   
 theme:
   name: material

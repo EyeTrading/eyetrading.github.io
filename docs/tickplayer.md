@@ -7,4 +7,9 @@
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/cBL1EE7pXSs?si=zm0zxJS-Gz49onAG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    回放個股歷史的成交狀況，並同時組成一分K、成交明細及閃電下單的跳動(僅成交與最佳一檔的掛單)。
+
+    ![tick_player](img/TickPlayer.png)
+
+    - 當日加權指數漲跌幅走勢
+    - 個股歷史明細生成一分K線圖
+    - 閃電下單可模擬下單

@@ -5,7 +5,7 @@
 
 !!! example "當沖覆盤軟體"
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/cBL1EE7pXSs?si=zm0zxJS-Gz49onAG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e2IZk5OGWmQ?si=J3IDUvs_ttqqwpZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
     ![tick_player](img/TickPlayer.png)

@@ -1,0 +1,233 @@
+<!-- 自訂首頁內容-->
+
+{% extends "main.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+{% endblock %}
+
+{% block tabs %}
+{{ super() }}
+<style>
+  .et-container {
+    padding-top: .0rem;
+    background: linear-gradient(to bottom, var(--md-primary-fg-color) 15%, #F0DEDC 99%,#fff 99%)
+}
+
+.et-hero {
+    margin: 32px 2.8rem;
+    color: var(--md-primary-bg-color);
+    justify-content: center;
+}
+
+.et-hero h1 {
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: 700
+}
+
+.et-hero__content {
+    padding-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.et-hero__video{
+    width:17rem;
+    height:16rem;
+    order:1;
+    padding-right: 2.5rem;
+}
+
+.et-button {
+    margin-top: .5rem;
+    margin-right: .5rem;
+    color: var(--md-primary-bg-color)
+}
+
+.et-button--primary {
+    background-color: var(--md-primary-bg-color);
+    color: hsla(280deg, 37%, 48%, 1);
+    border-color: var(--md-primary-bg-color)
+}
+
+.et-button:focus,
+.et-button:hover {
+    background-color: var(--md-accent-fg-color);
+    color: var(--md-default-bg-color);
+    border-color: var(--md-accent-fg-color)
+}
+
+/*.feature-item h2 svg {
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    transform: translateY(10%);
+}*/
+
+.top-hr {
+    margin-top: 42px;
+}
+
+.feature-item {
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 0 15px;
+    word-break: break-word
+}
+
+.feature-item h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 36px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+}
+
+.feature-item p {
+    font-size: 16px;
+    line-height: 1.8em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #111;
+    margin: 0 0 10px;
+    display: block;
+}
+
+.feature-item a {
+    font-size: 16px;
+    line-height: 1.8em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    background-color: #876fa1;
+    margin: 0 0 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 2px 20px;
+}
+
+@media screen and (max-width:30em) {
+    .et-hero h1 {
+        font-size: 1.4rem
+    }
+}
+
+@media screen and (min-width:60em) {
+    .md-sidebar--secondary {
+        display: none
+    }
+
+    .et-hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .et-hero__content {
+        max-width: 22rem;
+        margin-top: 4rem;
+        margin-bottom: 3.5rem;
+        margin-left: 1.0rem;
+        margin-right: 4.0rem;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:76.25em) {
+    .md-sidebar--primary {
+        display: none
+    }
+
+    .top-hr {
+        width: 100%;
+        display: flex;
+        max-width: 61rem;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 .2rem;
+    }
+
+    .bottom-hr {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        max-width: 61rem;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 .2rem;
+    }
+
+    .feature-item {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .feature-item:hover {
+        background-color: #526cfe47;
+        border-radius: 3px;
+    }
+}
+
+</style>
+<!-- Main site Entry button descriptions -->
+<div class="et-container">
+    <div class="md-grid md-typeset">
+      <div class="et-hero">
+        <div class="et-hero__video">
+            <!-- shots: https://youtube.com/embed/w7ox23rM9Y8?si=JmDGFvsCkNE-wJ3m -->
+            <iframe width="320" height="320" src="https://www.youtube.com/embed/KTcXtLqbMdY?si=gYG7u_6Hu3ERVfeL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="et-hero__content">
+          <h1> EyeTrading </h1>
+          <p>第一個嘗試使用<span style="color:blue;font-weight:bold;"> Python </span>開發的閃電下電，同時也是少見可以在 <span style="color:red;">MacBook</span>
+            下運作的閃電下電介面的跨平台(windows/Macos)工具。</p>
+          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary et-button">
+            Get started
+          </a>
+          
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Main site box descriptions -->
+<div class="top-hr">
+    <div class="feature-item">
+        <h2>
+            <i class="large material-icons" style="font-size: 36px;">sentiment_very_satisfied</i>
+            尋找當沖選股與閃電下單？
+        </h2>
+        <p>盤中選股獨家設計，可快速從標的挑選出<span style="color:red;font-weight:bold;">出量</span>的個股<br>
+            閃電下單內置<span style="color:red;font-weight:bold;">力道指標</span>，協助您發現買賣<span style="color:red;font-weight:bold;">力竭</span>的時機點<br>
+           歡迎體驗特別為<span style="color:red;font-weight:bold;">當沖</span>設計的選股方式與閃電下單
+        </p>
+        <a href="{{ 'feature' | url}}" title="特色">選股與閃電下電特色</a>
+    </div>
+    <div class="feature-item">
+        <h2>
+            <i class="large material-icons" style="font-size: 36px;">people</i>
+            客製化閃電下單、選股工具
+        </h2>
+        <!--<p>有自己的策略與下單方式<br>
+           一般閃電下單無法達成您的需求?<br>
+           有獨自的選股方式卻無適合的工具?<br>
+        </p> -->
+        <p>
+          一直長時間看盤導致眼睛疲勞？<br>
+          長期點滑鼠導致手腕痛？<br>
+          也許您可以試試用軟體工具來輔助交易動作
+        </p>
+        <a href="{{ 'contact' | url}}" title="請和我們連絡">您可以和我們聊聊</a>
+    </div>
+</div>
+
+
+{% endblock %}
+{% block content %}{% endblock %}
+<!-- 加了 block footer 則原本的footer 不會有，需要自己寫在 html-->

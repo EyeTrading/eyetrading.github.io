@@ -9,15 +9,15 @@ copyright: Copyright &copy; 2024 EyeTrading
 nav:
   - Home: index.md
   - 特色: feature.md
-  - 覆盤軟體: tickplayer.md
-  - 使用說明:
-    - 安裝與設定: guides/index.md
-    - 軟體畫面: guides/screen_eyetrading.md
-    - Shioaji Api設定: guides/screen_settings.md
-    - 盤中選股: guides/screen_pick.md
-    - 力竭監控: guides/screen_exhaust.md
-    - 閃電下單: guides/screen_flashbot.md
-    - 盤後選股(Dev): guides/screen_afterpicks.md
+  - 覆盤工具: tickplayer.md
+  #- 使用說明:
+  #  - 安裝與設定: guides/index.md
+  #  - 軟體畫面: guides/screen_eyetrading.md
+  #  - Shioaji Api設定: guides/screen_settings.md
+  #  - 盤中選股: guides/screen_pick.md
+  #  - 力竭監控: guides/screen_exhaust.md
+  #  - 閃電下單: guides/screen_flashbot.md
+  #  - 盤後選股(Dev): guides/screen_afterpicks.md
   - 免責聲明: disclaimer.md
   - 連絡: contact.md
   - 關於: about.md

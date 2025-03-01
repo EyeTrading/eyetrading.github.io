@@ -17,3 +17,11 @@ Shioaji API 是由永豐金證券所開發並提供給投資者使用的 Python 
 ## Home
 
 首頁的樣式參考 <a href="https://github.com/up42/up42-py" target="_blank">UP4</a>
+
+## 專案記錄
+
+- 2024: 股期下單系統.
+- 2024: 價差交易系統.
+- 2024: 資金管理系統.
+- 2025: TradingView 策略轉Python 交易系統.
+- 2025: 台指期、選擇權籌碼系統.

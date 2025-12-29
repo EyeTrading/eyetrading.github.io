@@ -11,14 +11,6 @@
         ![Telegram](img/te_qrcode.jpg){ width="150"}
         </p>
 
-
-    -   :material-instagram:{ .lg .middle } __IG__
-
-        ---
-        <p align=center style="background:#BEBEBE">
-        ![IG](img/ig_qrcode.jpg){ width="150"}
-        </p>
-
     -   :fontawesome-brands-line:{ .lg .middle } __Line__
 
         ---
@@ -36,7 +28,3 @@
         
 
     </div>
-
-## 請留下您的建議
-
-<embed src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSetHaNi_OwvEYTW7jt5YewS7su4IQcqy_WjYJxfvnO2iQcgcA/formResponse" width="600" height="900"/>

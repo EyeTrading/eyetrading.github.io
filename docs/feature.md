@@ -9,7 +9,7 @@
     3. <span style="color:red;font-weight:bold;">閃電下單整合均線</span>: 閃電下單欄位整合1分K的均線位置，同時也提示日K均線價.
     4. <span style="color:red;font-weight:bold;">當日預估量</span>: 計算個股當日預估量及昨日成交量.
 
-    ![flashorderKChart](img/multi_time_order.png) {width=480}
+    ![flashorderKChart](img/multi_time_order.png){ width=480}
 
 ## K線圖整合閃電下單
 

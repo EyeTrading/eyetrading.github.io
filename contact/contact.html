@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="js/materialize.min.js"></script>
+  <script src="js/jquery-3.7.1.slim.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="row">
+    
+      <form id="form" class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="username" type="text" class="validate">
+            <label for="username">姓名</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">mail</i>
+            <input id="contact" type="tel" class="validate">
+            <label for="contact">連絡方式: E-Mail、電話、Line...</label>
+          </div>
+        </div>
+
+        <div class="input-field col s12">
+          <textarea id="message" class="materialize-textarea"></textarea>
+          <label for="message">訊息</label>
+        </div>
+
+        <div>
+          <button id="submit" class="btn waves-effect waves-light">送出
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+      </form>
+  </div>
+  <script type="text/javascript">
+      $('#submit').click( function() {
+        //e.preventDefault();
+        
+        if ( $('#username').val() != "" && $('#contact').val() != "" && $('#message').val() != "") {
+          $.ajax({
+            type: "POST",
+            url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSetHaNi_OwvEYTW7jt5YewS7su4IQcqy_WjYJxfvnO2iQcgcA/formResponse",
+            crossDomain: true,
+            data: {
+              "entry.1275659446": $('#username').val(),
+              "entry.1478520452":$('#contact').val(),
+              "entry.649104470": $('#message').val()
+            },
+            dataType: "JSONP",
+            success: function () {
+              $('#username').val('');
+              $('#contact').val('');
+              $('#message').val('');
+              
+              //window.location.replace("/thank.md");
+            }
+          });
+        };
+      });
+    </script>
+
+  
+</body>
+
+</html>
